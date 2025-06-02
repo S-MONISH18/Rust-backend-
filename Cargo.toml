@@ -1,0 +1,10 @@
+[package]
+name = "demorust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = { version = "0.6", features = ["multipart"] }
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+tower-http = { version = "0.4", features = ["fs"] }
